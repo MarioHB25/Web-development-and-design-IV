@@ -1,5 +1,5 @@
 <h1 align="center" style="color: #0366d6;">
-   Creative Company 🎨
+   NFT Market 🛒
 </h1>
 
 <p>In this repository you will find a design and development project for a web page using HTML <img align="center" width="30" height="30" src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg" alt="html5"/>, &nbsp;
