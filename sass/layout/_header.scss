@@ -1,0 +1,42 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 70px;
+    align-items: center;
+}
+
+header .menu ul {
+    padding-right: 330px;
+    display: flex;
+    gap: 46px;
+    list-style: none;
+    a { 
+        text-decoration: none;
+        color: $font-color;
+        &:hover {
+            color: $orange;
+        }
+    }
+}
+
+header .btn {
+    display: flex;
+    gap: 20px;
+    font-weight: 500;
+    align-items: center;
+    .up {
+        color: white;
+        &:hover {
+            color: $orange;
+        }
+    }
+    .in {
+        padding: 10px 25px;
+        background-color: $orange;
+        color: white;
+        text-decoration: none;
+        &:hover {
+            color: black;
+        }
+    }
+}

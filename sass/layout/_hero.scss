@@ -1,0 +1,85 @@
+.hero {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.hero-img img{
+    position: absolute;
+    z-index: -1;
+    top: -151px;
+    right: -120px;
+}
+
+.hero-tittle {
+    font-family: $secondary-font;
+    font-size: 52px;
+    line-height: 76px;
+    width: 650px;
+    font-weight: 400;
+}
+
+.hero-tittle::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-image: url(../../img/Vector.svg);
+    background-repeat:  no-repeat;
+    background-size: 16%;
+    left: 100px;
+    top: 7px;
+}  
+
+.hero-info {
+    color: $font-color2;
+    font-size: 16px;
+    padding-bottom: 50px;
+}
+
+.hero-info::after {
+    position: absolute;
+    content: "";
+    width: 55px;
+    height: 3px;
+    background-color: red;
+    background-repeat:  no-repeat;
+    left: 0;
+    bottom: 177px;
+
+}
+
+.hero-btn {
+    padding-bottom: 84px;
+}
+.btn1 {
+    padding: 10px 50px;
+    display: inline-block;
+    background-color: $orange;
+    text-decoration: none;
+    color: white;
+    &:hover {
+        color: $font-color;
+    }
+
+}
+
+.btn2 {
+    padding: 10px 30px;
+    display: inline-block;
+    color: $font-color;
+    &:hover {
+        color: $orange;
+    }
+}
+
+.btn2::after {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 30px;
+    background-image: url(../../img/Arrow.svg);
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+    background-position-y: -8px;
+}

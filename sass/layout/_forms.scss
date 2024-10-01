@@ -1,0 +1,36 @@
+.info h2 {
+    font-family: $secondary-font;
+    padding-bottom: 10px;
+}
+
+.art1 {
+    position: absolute;
+    left: 80px;
+}
+
+.art2 {
+    position: absolute;
+    left: 465px;
+}
+
+.items {
+    display:flex;
+    padding-left: 795px;
+    margin-top: 170px;
+    gap: 82px;
+    color: white;
+    font-size: 12px;
+    width: 550px;
+}
+
+.items p {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+.items span {
+    color: $orange;
+    font-size: 20px;
+    font-weight: 600;
+}
