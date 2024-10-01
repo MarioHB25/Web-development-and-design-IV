@@ -17,13 +17,13 @@
    preview 📸
 </h2>
 
-<img src="preview/Creative Company.png" alt="Banner"/>
+<img src="preview/NFT Market.png" alt="Banner"/>
 
 <h2 align="center" style="color: #0366d6;">
    Visit the web site on ⬇️
 </h2>
 
-<p align="center"><a align="center" href="https://mariohb25.github.io/Web-development-and-design-II/">Creative Company</a></p>
+<p align="center"><a align="center" href="https://mariohb25.github.io/Web-development-and-design-IV/">NFT Market</a></p>
 
 <br><br><br>
 
